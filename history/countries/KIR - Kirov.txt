@@ -11,10 +11,6 @@ add_ideas = {
 	### STANDARD ###
 	RUS_terror_bombing
 	RUS_warlord_manpower
-	KIR_unrepentant_reaction
-	KIR_the_tsar_and_himself
-	KIR_officer_infighting
-	RUS_the_izhevsk_arsenal
 	
 	### MINISTERS ###
 	KIR_Tsar_Vladimir_hog

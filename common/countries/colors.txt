@@ -97,12 +97,12 @@ BRY = {
 	color_ui = rgb { 175 15 28 }
 }
 WRS = {
-	color = rgb { 163 66 76 }
-	color_ui = rgb { 163 66 76 }
+	color = rgb { 71 7 54 }
+	color_ui = rgb { 50 11 53 }
 }
 ORE = {
-	color = rgb { 86 120 86 }
-	color_ui = rgb { 86 120 86 }
+	color = rgb { 111 0 0 }
+	color_ui = rgb { 88 0 0 }
 }
 KHA = {
 	color = rgb { 0 0 0 }

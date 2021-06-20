@@ -1,10 +1,10 @@
-add_namespace = meme_sudin
+add_namespace = test_debug
 
 country_event = {
-	id = Test_debug.0
-	immediate - { log = "[GetDateText]: [Root.GetName]: event Test_debug.0" }
-	title = Test_debug.0.t
-	desc = Test_debug.0.d
+	id = test_debug.0
+	immediate - { log = "[GetDateText]: [Root.GetName]: event test_debug.0" }
+	title = test_debug.0.t
+	desc = test_debug.0.d
 	picture = GFX_report_event_german_radio_espionage
 	
 	fire_only_once = yes
@@ -12,10 +12,115 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = Test_debug.0.a
-        }
+		name = test_debug.0.a
+		
+		KIR = {
+		transfer_state = 249
+		transfer_state = 854
+		transfer_state = 256
+		transfer_state = 855
+		transfer_state = 252
+		transfer_state = 351
+		transfer_state = 856
+		transfer_state = 857
+		}
+		
+		UDM = {
+		transfer_state = 756
+		transfer_state = 844
+		transfer_state = 845
+		transfer_state = 871
+		transfer_state = 573
+		}
+		
+		ORE = {
+			set_politics = {
+				ruling_party = communist
+			}
+			create_country_leader = {
+				name = "Comrade Sudin"
+				#desc = "POLITICS_MIKHAIL_PERVUKHIN_AM_DESC"
+				picture = "gfx/leaders/ORE/Comrade_Sudin.dds"
+				expire = "1999.1.1"
+				ideology = communist_subtype
+				traits = {
+				}
+			}
+		}
+		
+		ORE = {
+		transfer_state = 652
+		transfer_state = 849
+		transfer_state = 852
+	    transfer_state = 250
+		transfer_state = 251
+		transfer_state = 850
+		transfer_state = 755
+		transfer_state = 851
+		transfer_state = 651
+		transfer_state = 853
+		}
+		
+	    PRM = {
+	    transfer_state = 407
+	    transfer_state = 406
+		transfer_state = 847
+		transfer_state = 848
+	    }
+		
+		VOR = {
+		set_politics = {
+				ruling_party = ultranational_socialism
+		}
+		transfer_state = 863
+		transfer_state = 581
+		transfer_state = 262
+		transfer_state = 869
+		transfer_state = 866
+		}
+		
+		SAM = {
+		
+		set_politics = {
+				ruling_party = social_democrat
+		}
+		
+		create_country_leader = {
+				name = "Miras"
+				#desc = "POLITICS_MIKHAIL_PERVUKHIN_AM_DESC"
+				#picture = "gfx/leaders/ORE/Comrade_Sudin.dds"
+				expire = "1999.1.1"
+				ideology = social_democrat_subtype
+				traits = {
+				}
+		}
+			
+		transfer_state = 753
+		transfer_state = 864
+		transfer_state = 398
+		transfer_state = 865
+		transfer_state = 865
+		transfer_state = 752
+		transfer_state = 399
+		}
+		
+		WRS = {
+				set_politics = {
+				ruling_party = despotism
+		}
+		
+		transfer_state = 214
+		transfer_state = 859
+		transfer_state = 858
+		transfer_state = 862
+		transfer_state = 870
+		transfer_state = 860
+		transfer_state = 861
+		
+		}
+    }
    
-   }
+}
    
 country_event = {
 	id = Test_debug.1984

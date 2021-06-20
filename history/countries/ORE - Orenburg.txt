@@ -3,6 +3,8 @@
 oob = "ORE_1962"
 add_manpower = 1000
 
+
+
 add_ideas = {
 	##STANDARD##
 	RUS_terror_bombing
@@ -101,7 +103,7 @@ set_technology = {
 	military_construction0 = 1
 }
 
-load_focus_tree = tno_orenburg_tree
+load_focus_tree = SUDIN_tree
 
 set_politics = {
 	ruling_party = socialist

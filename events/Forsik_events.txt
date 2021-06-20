@@ -1,0 +1,16 @@
+add_namespace = forsik
+
+country_event = {
+	id = forsik.12
+	immediate - { log = "[GetDateText]: [Root.GetName]: event forsik.12" }
+	title = forsik.12.t
+	desc = forsik.12.d
+	picture = GFX_report_event_german_radio_espionage
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = forsik.12.a
+	}
