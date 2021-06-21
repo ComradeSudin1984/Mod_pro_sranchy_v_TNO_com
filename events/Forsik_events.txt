@@ -13,4 +13,5 @@ country_event = {
 
 	option = {
 		name = forsik.12.a
+	
 	}
