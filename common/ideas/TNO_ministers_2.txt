@@ -1,0 +1,79 @@
+ideas = {
+
+	###### Generics ######
+	head_of_government = {
+		Generic_Vacant_hog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea Generic_Vacant_hog"}
+			picture = "Generic_Position_Vacant"
+			allowed = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+
+	economy_minister = {
+		Generic_Vacant_eco = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea Generic_Vacant_eco"}
+			picture = "Generic_Position_Vacant"
+			allowed = {
+				always = yes
+			}
+			traits = {
+				economy_minister
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+
+	foreign_minister = {
+		Generic_Vacant_for = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea Generic_Vacant_for"}
+			picture = "Generic_Position_Vacant"
+			allowed = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+
+	security_minister = {
+		Generic_Vacant_sec = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea Generic_Vacant_sec"}
+			picture = "Generic_Position_Vacant"
+			allowed = {
+				always = yes
+			}
+			traits = {
+				security_minister
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	####DEBILNOE BRATSTVO"
+		security_minister = {
+		ERS_Rimskya_Imperia_sec = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ERS_Rimskya_Imperia"}
+			picture = "Generic_Position_Vacant"
+			allowed = {
+				always = yes
+			}
+			traits = {
+				security_minister
+				sec_prince_of_terror
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+}

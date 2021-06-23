@@ -1,6 +1,10 @@
 spriteTypes = {
 
 	###Generics
+		spriteType = {
+		name = "Generic_Position_Vacant"
+		texturefile = "gfx/interface/ideas/NIK/ministers/Minister_Vacant.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_generic_terror_werewolves"
 		texturefile = "gfx/interface/ideas/generics/idea_generic_terror_werewolvess.dds"

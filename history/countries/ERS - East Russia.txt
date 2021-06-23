@@ -11,7 +11,7 @@ add_ideas = {
 	AM_Empty_hog 
 	AM_Empty_for 
 	AM_Empty_eco 
-	AM_Empty_sec 
+	ERS_Rimskya_Imperia_sec 
 
 	### Political ###
 	tno_political_parties_multiparty_system
@@ -157,11 +157,6 @@ set_politics = {
 set_popularities = {
 	social_democrat = 100
 }
-
-set_country_flag = gui_alert_visible
-set_country_flag = duma_alert_visible
-
-ERS_setup_starting_variables = yes
 ### Country Leaders ###
 
 create_country_leader = {
